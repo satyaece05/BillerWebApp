@@ -5,15 +5,20 @@
  */
 import { ModuleWithProviders } from '@angular/core/src/metadata/ng_module';
 import { Routes, RouterModule } from '@angular/router';
-
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-
-
-export const ROUTES: Routes = [
-    {path: '', redirectTo: 'home', pathMatch: 'full'},
+import { ShopComponent } from './shop/shop.component';
+import { QueryComponent } from './query/query.component';
+import { CardinventoryComponent } from './cardinventory/cardinventory.component';
+const ROUTES: Routes = [
+    {path: '', redirectTo: '.', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
-    {path: 'about', component: AboutComponent}
+    {path: 'about', component: AboutComponent},
+    {path: 'shop', component: QueryComponent, 
+        children: [
+            {path: 'shop/:id', component: CardinventoryComponent}
+        ]
+    }
 ];
 
 export const ROUTING: ModuleWithProviders = RouterModule.forRoot(ROUTES);

@@ -311,6 +311,94 @@
          result="composite2"
          id="feComposite9972" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4837">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4827" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4829" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4831" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4833" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4835" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4825">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4815" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4817" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4819" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4821" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4823" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4787">
+      <g
+         id="g4793"
+         transform="translate(-203.34298,-149.48421)"
+         style="fill:#000000">
+        <rect
+           y="-317.02933"
+           x="245.37238"
+           height="114.446"
+           width="25.448637"
+           id="rect4789"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20.35355377;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <rect
+           transform="matrix(0,-1,-1,0,0,0)"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:20.50577736;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4791"
+           width="26"
+           height="113.70087"
+           x="202.58334"
+           y="-359.07324" />
+      </g>
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -319,9 +407,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.4363852"
-     inkscape:cx="84.209822"
-     inkscape:cy="58.013411"
+     inkscape:zoom="3.8441049"
+     inkscape:cx="118.0924"
+     inkscape:cy="70.042001"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -350,42 +438,32 @@
      id="layer1"
      transform="translate(0,-261)">
     <g
-       id="g9982"
-       transform="matrix(0.23672625,0,0,0.23480421,-73.04203,353.10905)">
+       transform="matrix(0.24222959,0,0,0.23798823,-70.88686,352.35788)"
+       id="g4843">
       <path
-         transform="matrix(0.98456624,0,0,0.98082752,5.1607619,-5.1283506)"
          inkscape:connector-curvature="0"
          id="rect9481"
-         d="m 346.20527,-383.1017 105.30742,106 0.69258,-0.69715 V -383.1017 Z"
-         style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.25017673;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter9974)" />
+         d="m 325.19057,-373.02039 105.30742,106 0.69258,-0.69715 v -105.30285 z"
+         style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.25017673;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4837)" />
       <g
-         style="filter:url(#filter9962)"
-         transform="translate(4.60782,-0.15467989)"
-         id="g9890">
+         style="filter:url(#filter4825)"
+         transform="translate(10.029741,-22.925122)"
+         id="g4813">
         <path
            style="opacity:1;fill:#669900;fill-opacity:1;stroke:none;stroke-width:23.00718689;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 430.01117,-276.66684 h -89 v -89"
+           d="m 407.87302,-247.68752 h -89 v -89"
            id="rect9719"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccc" />
-        <g
-           id="g9844">
-          <rect
-             y="-365.66431"
-             x="315.74878"
-             height="114.446"
-             width="25.448637"
-             id="rect9722"
-             style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:20.35355377;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <rect
-             transform="matrix(0,-1,-1,0,0,0)"
-             style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:18.17709351;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect9724"
-             width="26"
-             height="89.342934"
-             x="251.2182"
-             y="-430.01117" />
-        </g>
+        <rect
+           style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:1.41026342;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4754"
+           width="113.19279"
+           height="114.148"
+           x="42.029396"
+           y="-466.21555"
+           clip-path="url(#clipPath4787)"
+           transform="translate(252.14276,130.38003)" />
       </g>
     </g>
   </g>
